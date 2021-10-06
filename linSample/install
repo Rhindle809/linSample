@@ -1,0 +1,8 @@
+#!/bin/bash
+#Copy EasyVolcaSample.exe from the original project into the same directory you are running this script from before running
+
+chmod +x linSample
+chmod +x runevs
+cp linSample /bin
+cp runevs /bin
+cp EasyVolcaSample.exe /bin

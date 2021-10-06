@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mkdir converted
+for file in *.wav; do sox "$file" -r 33000 -c 1 -b 16 "conv_$file"; done
+mv conv_*.wav converted
+cd converted
+echo "Where Should Sample Numbering Begin?"
+read INITNUMB
+for i in *;do ext="${i#*.}";mv "$i" "$INITNUMB $file";((INITNUMB++));done
+runevs
+aplay out.wav
