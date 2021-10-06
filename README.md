@@ -8,7 +8,7 @@ Since all the of the gui based applications for Volca Sample management were cau
 1. sox
 2. aplay (from alsa-utils)
 3. Wine
-4. EasyVolcaSample.exe from the project by josephernest that this one is built on, found at https://github.com/josephernest/EasyVolcaSample
+4. EasyVolcaSample.exe from the project by josephernest that this one is built around, found at https://github.com/josephernest/EasyVolcaSample
 
 ## Installation Instructions
 1. Obtain both my project and EasyVolcaSample
@@ -29,6 +29,6 @@ runevs isn't really a necessity if you do some mild script altering, since all i
 If you don't want to upload your sample packs straight away, or you're just packaging them for later use, you can comment out the last line of the linSample script. In your sample directory, you'll find a directory called converted, within that directory you'll find a file called out.wav. This is the file your Volca can understand and you can play it with any audio player of your choice to upload samples. You may also rename it to something memorable and store it away elsewhere to build up banks of samples you can switch between on the fly.
 
 ## Limitations
-Even if you own a Sample 2, you will still only have access to the first 100 samples, being 0-99. This isn't a problem in my case because I tend to overwrite the Sample's entire memory per project
+If you own a Sample 2, you will still only have access to the first 100 samples, being 0-99. This isn't a problem in my case because I tend to overwrite the Sample's entire memory per project
 
 Uploading a ton of samples can take time; i've seen resulting data files upwards of 20-30 minutes, keep in mind these have to play in real time. Use the time to prepare the rest of your instruments, grab a cup of coffee, or simply for quiet reflection.
