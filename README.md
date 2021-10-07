@@ -22,7 +22,7 @@ Since all the of the gui based applications for Volca Sample management were cau
 4. Happy jamming
 
 ## Notes
-The install script isn't really needed, you can copy linSample, runevs, and EasyVolcaSample.exe into the /bin directory yourself, or wherever else you want assuming you modify all of the scripting to match. It is, however, preferable to place these files within your path, or else the one command ease of use becomes moot.
+The install script isn't really needed, you can make linSample and runevs executable, then copy linSample, runevs and EasyVolcaSample.exe into the /bin directory yourself, or wherever else you want assuming you modify all of the scripting to match. It is, however, preferable to place these files within your path, or else the one command ease of use becomes moot.
 
 runevs isn't really a necessity if you do some mild script altering, since all it contains is one line executing EasyVolcaSample.exe with Wine. I have run into problems executing programs with Wine from within scripts in the past, but the problems are always negated by a one line script such as runevs so I chose to wrap it this way.
 
